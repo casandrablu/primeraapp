@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_main.*
         ingresar.setOnClickListener {
          var  v=      getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
             // prueba
-            v.vibrate(3000)
+            v.vibrate(4000)
 
         }
 
