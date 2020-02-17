@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
       supportActionBar?.hide()
         ingresar.setOnClickListener {
          var  v=      getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            // prueba
             v.vibrate(3000)
 
         }
